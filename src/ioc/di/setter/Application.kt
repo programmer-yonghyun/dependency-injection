@@ -4,8 +4,8 @@ class Application {
 
     private lateinit var emailSendService: EmailSendService
 
-    fun setEmailService(emailSendService: EmailSendService) {
-        this.emailSendService = this.emailSendService
+    fun setEmailSendService(emailSendService: EmailSendService) {
+        this.emailSendService = emailSendService
     }
 
     fun process(receiver: String, message: String) {
